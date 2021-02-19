@@ -1,7 +1,7 @@
 import discord
 import requests
 import json
-import os
+from decouple import config
 
 client=discord.Client()
 
@@ -28,4 +28,4 @@ async def on_message(message):
         quote1 = get_quote()
         await message.channel.send(quote1)
 
-client.run(os.getenv("TOKEN"))
+client.run(config("TOKEN"))
