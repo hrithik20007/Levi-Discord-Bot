@@ -252,7 +252,7 @@ async def on_message(message):
             await message.channel.send("There's no audio playing, baka.")
     
 
-client.run("ODExNjMwMjE2OTY2MzA3ODQw.YC0_iw.Y7g_vxAjYGrpfbMyJWT2XUc3Jog")
+client.run(config("TOKEN"))
 
 
 '''        
