@@ -8,6 +8,7 @@ A Discord Bot based on the 'Attack On Titan' anime character Levi.
 Go to your terminal and switch to a desired directory. Then,
 ```bash
 	git clone https://github.com/hrithik20007/Levi-Discord-Bot.git
+	cd Levi-Discord-Bot/
 	python3 bot.py
 ```
 	
