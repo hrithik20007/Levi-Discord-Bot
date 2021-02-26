@@ -10,7 +10,6 @@ Go to your terminal and switch to a desired directory. Then,
 
 	git clone https://github.com/hrithik20007/Levi-Discord-Bot.git
 	python3 bot.py
-	
 '''
 ### Other Requirements:
 
@@ -31,7 +30,6 @@ It will go something like this-
 '''bash
 
 	TOKEN="<bot token>"
-
 '''
 You may also directly just copy the token into the client.run() parameter as a string.
 
@@ -45,7 +43,6 @@ Install the necessary python packages or libraries with-
 '''bash
 
 	pip install <library name>
-
 '''
 
 ## Commands available:
