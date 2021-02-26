@@ -6,10 +6,10 @@ A Discord Bot based on the 'Attack On Titan' anime character Levi.
 ## How to install and run:
 
 Go to your terminal and switch to a desired directory. Then,
-'''bash
-
+```bash
 	git clone https://github.com/hrithik20007/Levi-Discord-Bot.git
 	python3 bot.py
+```
 	
 ### Other Requirements:
 
@@ -27,9 +27,9 @@ Go to your terminal and switch to a desired directory. Then,
  
 Make a .env file within the directory and define a 'TOKEN' environment variable by copying your bot token from - (https://discord.com/developers/applications/)
 It will go something like this-
-'''bash
-
+```bash
 	TOKEN="<bot token>"
+```
 	
 You may also directly just copy the token into the client.run() parameter as a string.
 
@@ -40,9 +40,9 @@ You have to redefine the ID variable in the program, to your server ID. To do th
 * Right click on the server name and you'll get an option to copy the server ID.
 
 Install the necessary python packages or libraries with-
-'''bash
-
+```bash
 	pip install <library name>
+```
 
 ## Commands available:
 
