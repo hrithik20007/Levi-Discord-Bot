@@ -39,6 +39,7 @@ You have to redefine the ID variable in the program, to your server ID. To do th
 * Go to 'Appearence' tab.
 * Enable Developer Mode.
 * Right click on the server name and you'll get an option to copy the server ID.
+* Paste the ID in place of the value provided for the variable 'ID'.
 
 Install the necessary python packages or libraries with-
 ```bash
