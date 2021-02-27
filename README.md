@@ -7,9 +7,9 @@ A Discord Bot based on the 'Attack On Titan' anime character Levi.
 
 Go to your terminal and switch to a desired directory. Then,
 ```bash
-	git clone https://github.com/hrithik20007/Levi-Discord-Bot.git
-	cd Levi-Discord-Bot/
-	python3 bot.py
+git clone https://github.com/hrithik20007/Levi-Discord-Bot.git
+cd Levi-Discord-Bot/
+python3 bot.py
 ```
 	
 ### Other Requirements:
@@ -25,14 +25,15 @@ Go to your terminal and switch to a desired directory. Then,
 * Open a new browser tab and paste the URL.
 * Select the server you want to add the bot to and authorize.
 * Copy the bot token for the next step. 
+
  
 Make a .env file within the directory and define a 'TOKEN' environment variable by copying your bot token from - (https://discord.com/developers/applications/)
 It will go something like this-
 ```bash
-	TOKEN="<bot token>"
+TOKEN="<bot token>"
 ```
-	
 You may also directly just copy the token into the client.run() parameter as a string.
+
 
 You have to redefine the ID variable in the program, to your server ID. To do that-
 * Go to 'User Settings'.
@@ -41,9 +42,21 @@ You have to redefine the ID variable in the program, to your server ID. To do th
 * Right click on the server name and you'll get an option to copy the server ID.
 * Paste the ID in place of the value provided for the variable 'ID'.
 
+## Library Requirements:
+
+1) discord
+2) requests
+3) json
+4) better_profanity
+5) decouple
+6) os
+7) youtube_dl
+8) time
+9) random
+
 Install the necessary python packages or libraries with-
 ```bash
-	pip install <library name>
+pip install <library name>
 ```
 
 ## Commands available:
@@ -59,7 +72,8 @@ Install the necessary python packages or libraries with-
 * !inspire - Will give you a random quote and it's author/speaker.
 
 
-## Other Functionalities - 
+## Other Functionalities:
+
 1) Levi will recommend youtube videos to watch when you type a sad message.
 2) Gives welcome messages to new members.
 3) Bans members for use of profanity and gives them an embedded message.
