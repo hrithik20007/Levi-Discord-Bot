@@ -17,7 +17,7 @@ intents.members=True
 
 client=discord.Client(intents=intents)
 
-ID=int(811629751361077301)
+ID=int(811629751361077298)
 
 #To make the required strings, lists, dictionaries
 string ="1) You are not special and you'll probably die without doing anything remarkable or significant. 2) You are alive, have a brain and two hands. Use them. 3) If you don't take a bath regularly, please be kind enough to not show your face here again. 4) You cannot take too long to decide on anything. 5) Don't get too cocky bitch. If you go haywire, I will personally put you down without hesitation. 6) Give up on your dreams and die. If you don't want to, then think. 7) If you dare think you are a better weeb than anyone else here, leave. 8) If you find the bastard Zeke, you are to bring him to me, alive. 9) No profanity! 10) From today, you are in the Survey Corps headed by the Commander. Welcome to AOT Discord Server!"
